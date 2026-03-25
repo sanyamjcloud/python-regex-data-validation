@@ -1,39 +1,41 @@
-README.md
+# Python Regex for Data Validation
 
-# Regex Validation in Python
+## Overview
 
-## Objective
-This project demonstrates how to use **regular expressions (regex)** in Python to validate:
-- Email addresses
-- Indian mobile numbers
-- Strong passwords
+This repository demonstrates the use of regular expressions in Python for validating and processing input data.
 
-## Technologies Used
-- Python 3
-- re (Regular Expressions)
-- VS Code
+## Tech Stack
 
-## Files
-- `regex_validation.py` → Main Python script with all validation logic
-- `screenshots/` → Output screenshots (optional)
+* Python
+* re module
 
-## Validation Rules
+## Features
 
-### Email
-- Standard email format (username@domain.extension)
+* Pattern matching
+* Input validation (email, phone, etc.)
+* Data extraction
 
-### Indian Mobile Number
-- Starts with 6–9
-- Supports `+91`, `91`, or `0` prefixes
+## Usage
 
-### Password
-- Minimum 8 characters
-- At least 1 uppercase letter
-- At least 1 lowercase letter
-- At least 1 digit
-- At least 1 special character
-
-## ▶ How to Run
 ```bash
-python regex_validation.py
+python app.py
+```
 
+## Example
+
+* Validate email formats
+* Extract patterns from text
+
+## Sample Output
+
+(Add validation results)
+
+## Learning Outcomes
+
+* Regex pattern design
+* Data validation techniques
+
+## Possible Enhancements
+
+* Build form validation tool
+* Integrate with web applications
